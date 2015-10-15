@@ -1,1 +1,81 @@
 /* add custom styles */
+a{
+ color: white;
+}
+
+a:hover{
+  color:white;
+}
+
+body{
+  background-color: #FCFCFC;
+  color: #63738F;
+}
+
+.border{
+  border: black 1px solid;
+}
+
+.jumbo{
+  height: 50vh;
+  background-image: url('https://images.unsplash.com/photo-1444201716572-c60ec66d0494?q=80&fm=jpg&s=c5326d75121cd3322b2412b6676bdbe5');
+  background-size: cover;
+  background-position: top;
+  border-bottom: #FCFCFC 1px solid;
+  /*text-decoration: underline;*/
+}
+
+.project{
+  height: 300px;
+}
+
+.section{
+  margin-top: 30px;
+}
+
+.project-link{
+  height: 40px;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.icon{
+  font-size: 40px;
+  color: #5C76A7;
+}
+
+.icon:hover{
+  color: #AEC8F7;
+}
+
+.title{
+  font-size: 80px;
+  vertical-align: middle;
+  line-height: 30vh;
+  font-style: bold;
+  color: #5C76A7;
+  /*border-bottom: #FCFCFC 1px solid;*/
+}
+
+/*.opaque{
+  opacity: 0.8;
+}*/
+
+.resume{
+  height: 400px;
+}
+
+.study-up{
+  background-image: url('https://images.unsplash.com/3/doctype-hi-res.jpg?q=80&fm=jpg&s=88871674ce3ce449062b3a16c0be6c66');
+  background-size: cover;
+}
+
+.text-outline{
+    text-shadow:
+    -1px -1px 0 #FCFCFC,
+    1px -1px 0 #FCFCFC,
+    -1px 1px 0 #FCFCFC,
+    1px 1px 0 #FCFCFC;
+}

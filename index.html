@@ -10,29 +10,31 @@
     <link rel="stylesheet" type="text/css" href="css/skeleton.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  <body>
+  <body ng-controller = 'myController'>
 
   <div class = 'jumbo'>
-    <h1 class = 'title text-center text-outline opaque'>
+    <h1 class = 'title text-center text-outline-title'>
       Bradley James Bouley
     </h1>
     <div class = 'container'>
       <div class = 'row'>
+
         <div class = 'four columns text-center'>
            <a href = '#'>
-             <span class="fa fa-github-alt icon text-outline"></span>
+             <span class="fa fa-github-alt icon-header text-outline-title"></span>
            </a>
          </div>
           <div class = 'four columns text-center'>
            <a href = '#'>
-             <span class="fa fa-linkedin-square icon text-outline"></span>
+             <span class="fa fa-linkedin-square icon-header text-outline-title"></span>
            </a>
          </div>
           <div class = 'four columns text-center'>
            <a href = '#'>
-             <span class="fa fa-twitter icon text-outline"></span>
+             <span class="fa fa-twitter icon-header text-outline-title"></span>
            </a>
          </div>
+
        </div>
      </div>
   </div>
@@ -56,16 +58,54 @@
         <div class = 'four columns'>
 
           <div class = 'u-full-width project study-up'>
-          <h3 class = 'text-center text-outline'>Study Up</h3>
+          <h2 class = 'text-center text-outline project-title'>Study Up</h2>
           </div>
+
           <div class = 'u-full-width project-link'>
             <button class = 'button-primary u-full-width'><a href = 'http://studyupcoding.herokuapp.com/' target = '_blank'>View Live Site</a>
             </button>
           </div>
 
+           <div class = 'u-full-width'>
+            <button class = 'button-primary u-full-width' ng-click = 'studyDescriptionButton()'>Description
+            </button>
+          </div>
+
+          <div class = 'u-full-width' ng-show='studyDescription'>
+            <p>A study application built to help users save tutorials they have found online and share them. Includes authentication using passport. Built with Angular, Node and Express. Also uses Skeleton as a front-end framework in place of Bootstrap. I made use of nested schemas in mongo to help develop a relational database. I used a lot of tests to make sure all my routes on the back end were working properly with my database before starting on the front end.</p>
+          </div>
+
+          <div class = 'u-full-width text-center'>
+          <a href = 'https://github.com/Bbouley/angular-project-studyTime' target = '_blank'>
+            <span class="fa fa-github-alt icon text-outline-title"></span>
+          </a>
+        </div>
+
+        </div>
+
+        <div class = 'four columns'>
+
+          <div class = 'u-full-width project playlist'>
+          <h2 class = 'text-center text-outline project-title'>Play This</h2>
+          </div>
+
+          <div class = 'u-full-width project-link'>
+            <button class = 'button-primary u-full-width'><a href = 'http://bbouley.github.io/playlist-project-iteration3/' target = '_blank'>View Live Site</a>
+            </button>
+          </div>
+
+           <div class = 'u-full-width'>
+            <button class = 'button-primary u-full-width' ng-click = 'playlistDescriptionButton()'>Description
+            </button>
+          </div>
+
+           <div class = 'u-full-width' ng-show='playlistDescription'>
+            <p>My first project. Built using Jquery and vanilla Javascript. It is only a front-end project, however I used firebase to set up a database that I could write to. Although I am far less impressed with it now than when I made it, I feel I made huge strides forward whilst I was making it and learned a great deal about what not to do when working on a project.</p>
+          </div>
+
            <div class = 'u-full-width text-center'>
-          <a href = 'https://github.com/Bbouley/angular-project-studyTime' target = '_blank'>
-            <span class="fa fa-github-alt icon text-outline"></span>
+          <a href = 'https://github.com/Bbouley/playlist-project-iteration3' target = '_blank'>
+            <span class="fa fa-github-alt icon text-outline-title"></span>
           </a>
         </div>
 
@@ -76,69 +116,15 @@
 
         <div class = 'four columns project'>
         </div>
-
-      </div>
-
-
-      <div class = 'row section'>
-
-        <div class = 'four columns project-link'>
-        </div>
-
-        <div class = 'four columns project-link'>
-        </div>
-
-      </div>
-
-      <div class = 'row'>
-      </div>
-
-      <div class = 'row section'>
-
-     <!--    <div class = 'four columns text-center'>
-          <a href = 'https://github.com/Bbouley/angular-project-studyTime' target = '_blank'>
-            <span class="fa fa-github-alt icon text-outline"></span>
-          </a>
-        </div> -->
-
-      <!--   <div class = 'four columns text-center'>
-          <a href = '#'>
-            <span class="fa fa-github-alt icon text-outline"></span>
-          </a>
-        </div>
-
-        <div class = 'four columns text-center'>
-          <a href = '#'>
-            <span class="fa fa-github-alt icon text-outline"></span>
-          </a>
-        </div> -->
 
       </div>
 
     </div>
 
- <!--    <div class = 'row title section'>
-      Title
-    </div> -->
-
-   <!--  <div class = 'row section'>
-
-      <div class = 'twelve columns resume'>
-      Resume
-      </div>
-
-    </div> -->
-
   </div>
-    <!-- sample angular code -->
-   <!--  <div class="container">
-      <div ng-controller="myController">
-        <p>{{ greeting }}</p>
-      </div>
-    </div> -->
+
 
     <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/angular.js"></script>

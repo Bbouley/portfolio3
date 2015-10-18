@@ -1,14 +1,16 @@
 /* add custom styles */
 a{
  color: white;
+ text-decoration: none;
 }
 
 a:hover{
   color:white;
+  text-decoration: underline;
 }
 
 body{
-  background-color: #FCFCFC;
+  background-color: #FDFDFD;
   color: #63738F;
 }
 
@@ -21,12 +23,13 @@ body{
   background-image: url('https://images.unsplash.com/photo-1444201716572-c60ec66d0494?q=80&fm=jpg&s=c5326d75121cd3322b2412b6676bdbe5');
   background-size: cover;
   background-position: top;
-  border-bottom: #FCFCFC 1px solid;
+  border-bottom: #5C76A7 1px solid;
   /*text-decoration: underline;*/
 }
 
 .project{
   height: 300px;
+  color: #3473A3;
 }
 
 .section{
@@ -35,6 +38,7 @@ body{
 
 .project-link{
   height: 40px;
+  margin-top: 2px;
 }
 
 .text-center{
@@ -46,22 +50,33 @@ body{
   color: #5C76A7;
 }
 
+.icon-header{
+  font-size: 60px;
+  color: #5C76A7;
+}
+
 .icon:hover{
+  color: #AEC8F7
+}
+
+.icon-header:hover{
   color: #AEC8F7;
 }
 
 .title{
-  font-size: 80px;
+  font-size: 120px;
   vertical-align: middle;
   line-height: 30vh;
   font-style: bold;
   color: #5C76A7;
-  /*border-bottom: #FCFCFC 1px solid;*/
+  /*border-bottom: #5C76A7 1px solid;*/
 }
 
-/*.opaque{
-  opacity: 0.8;
-}*/
+.project-title{
+  color: #AEC8F7;
+  padding-top: 30px;
+  letter-spacing: 4px;
+}
 
 .resume{
   height: 400px;
@@ -72,7 +87,22 @@ body{
   background-size: cover;
 }
 
+.playlist{
+  background-image: url('../images/Project-playlist.png');
+  background-size: cover;
+  background-position: right;
+}
+
+
 .text-outline{
+    text-shadow:
+    -2px -2px 0 #5C76A7,
+    2px -2px 0 #5C76A7,
+    -2px 2px 0 #5C76A7,
+    2px 2px 0 #5C76A7;
+}
+
+.text-outline-title{
     text-shadow:
     -1px -1px 0 #FCFCFC,
     1px -1px 0 #FCFCFC,

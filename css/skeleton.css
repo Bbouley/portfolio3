@@ -124,7 +124,7 @@ body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #222; }
 
 
@@ -206,8 +206,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #63738F;
-  border-color: #63738F; }
+  background-color: black;
+  border-color: black; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +219,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #AEC8F7;
-  border-color: #AEC8F7; }
+  background-color: #868686;
+  border-color: #868686; }
 
 
 /* Forms

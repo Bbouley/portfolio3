@@ -5,7 +5,7 @@ a{
 }
 
 a:hover{
-  color:white;
+  color: white;
   text-decoration: underline;
 }
 
@@ -19,12 +19,17 @@ body{
 }
 
 .jumbo{
-  height: 50vh;
-  background-image: url('https://images.unsplash.com/photo-1444201716572-c60ec66d0494?q=80&fm=jpg&s=c5326d75121cd3322b2412b6676bdbe5');
-  background-size: cover;
-  background-position: top;
-  border-bottom: #5C76A7 1px solid;
+  height: 360px;
+  background-image: url('https://pixabay.com/get/7ac3e3e5dc985f278d8f/1445310560/macbook-923128_1920.jpg?direct');
+  /*background-size: cover;*/
+  background-position: left bottom;
+  border-bottom: black 1px solid;
+  color: black;
   /*text-decoration: underline;*/
+}
+
+.title-icons{
+  padding-top: 10px;
 }
 
 .project{
@@ -47,33 +52,34 @@ body{
 
 .icon{
   font-size: 40px;
-  color: #5C76A7;
+  color: black;
 }
 
 .icon-header{
   font-size: 60px;
-  color: #5C76A7;
+  color: black;
 }
 
 .icon:hover{
-  color: #AEC8F7
+  color: #868686
 }
 
 .icon-header:hover{
-  color: #AEC8F7;
+  color: #868686;
 }
 
 .title{
   font-size: 120px;
-  vertical-align: middle;
-  line-height: 30vh;
+  font-weight: 900;
+  /*vertical-align: middle;*/
+  /*line-height: 30vh;*/
   font-style: bold;
-  color: #5C76A7;
+  color: black;
   /*border-bottom: #5C76A7 1px solid;*/
 }
 
 .project-title{
-  color: #AEC8F7;
+  color: black;
   padding-top: 30px;
   letter-spacing: 4px;
 }
@@ -96,16 +102,16 @@ body{
 
 .text-outline{
     text-shadow:
-    -2px -2px 0 #5C76A7,
-    2px -2px 0 #5C76A7,
-    -2px 2px 0 #5C76A7,
-    2px 2px 0 #5C76A7;
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }
 
 .text-outline-title{
     text-shadow:
-    -1px -1px 0 #FCFCFC,
-    1px -1px 0 #FCFCFC,
-    -1px 1px 0 #FCFCFC,
-    1px 1px 0 #FCFCFC;
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
 }

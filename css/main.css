@@ -20,7 +20,7 @@ body{
 
 .jumbo{
   height: 360px;
-  background-image: url('https://pixabay.com/get/7ac3e3e5dc985f278d8f/1445310560/macbook-923128_1920.jpg?direct');
+  background-image: url('../images/macbook.jpg');
   /*background-size: cover;*/
   background-position: left bottom;
   border-bottom: black 1px solid;
